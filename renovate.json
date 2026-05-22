@@ -20,7 +20,9 @@
       "matchDepNames": ["pihole/pihole"],
       "matchDatasources": ["docker"],
       "separateMultipleMinor": true,
-      "separateMinorPatch": true
+      "separateMinorPatch": true,
+      "automerge": true,
+      "platformAutomerge": true
     }
   ]
 }
